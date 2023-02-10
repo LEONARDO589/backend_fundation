@@ -1,6 +1,6 @@
 const express = require('express');
 const indexRoutes = require('./routes/index.routers');
-const conectarBD = require('./db/condb')
+const conectarBD = require('./db/condb');
 
 //const {PORT} = require ('./config.js')
 
@@ -25,3 +25,5 @@ app.get("/", (request, res) => {
 app.listen(PORT, () => {
     console.log(`El servidor esta Funcionando en el ${PORT}`);
 });
+
+
